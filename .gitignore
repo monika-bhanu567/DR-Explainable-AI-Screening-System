@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+env/
+
+# Datasets
+ai/datasets/raw/
+ai/datasets/processed/
+
+# Trained model checkpoints
+*.pth
+*.pt
+
+# Generated outputs
+ai/outputs/
+storage/
+
+# Environment / secrets
+.env
+.env.*
+
+# IDE
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
